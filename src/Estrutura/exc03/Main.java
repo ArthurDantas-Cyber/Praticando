@@ -4,12 +4,13 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         Scanner s = new Scanner(System.in);
-        int num, i = 0;
+        int num = -1, i = 0;
         int[] vetor = new int[8];
 
-
-        System.out.print("Informe um número entre 0 e 128 para saber seu equivalente em binário: ");
-        num = s.nextInt();
+        while (num > 255 || num < 0){
+            System.out.print("Informe um número entre 0 e 255 para saber seu equivalente em binário: ");
+            num = s.nextInt();
+        }
 
         do {
             vetor[i] = num % 2;
