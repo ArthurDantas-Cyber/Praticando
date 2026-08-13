@@ -1,4 +1,4 @@
-package Estrutura.exc12;
+package Estruturas.exc12;
 
 public class Main {
     public static void main(String[] args) {

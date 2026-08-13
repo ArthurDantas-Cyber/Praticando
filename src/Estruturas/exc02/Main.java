@@ -1,4 +1,4 @@
-package Estrutura.exc02;
+package Estruturas.exc02;
 import java.util.Scanner;
 
 public class Main {

@@ -1,7 +1,7 @@
 /*Escreva um programa que carregue dois valores A e B pelo teclado e imprima todos os números ímpares entre A e B.*/
 
 
-package Estrutura.exc01;
+package Estruturas.exc01;
 import java.util.Scanner;
 
 public class Main {
